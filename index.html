@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      body {
+        background-image: url("wallpaper.jpg");
+        background-position: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-image: url("1076755_1948.jpg");
+        background-position: top;
+        background-blend-mode: lighten;
+        border-radius: 10px;
+        color: #fff;
+      }
+
+      .cards {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+      }
+
+      .card {
+        background-color: #f4f4f4;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        background-color: #e0e0e0;
+      }
+
+      .card a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .team {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+      }
+
+      .team h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+
+      .team h2 {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #555;
+      }
+
+      .team .profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .team .profile img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Welcome to Cleaning Services Management System</h1>
+    </div>
+    <div class="cards">
+      <div class="card">
+        <h1><a href="studentlogin.html">Student</a></h1>
+      </div>
+      <div class="card">
+        <h1><a href="workerlogin.html">Worker</a></h1>
+      </div>
+      <div class="card">
+        <h1><a href="Supervisorlogin.html">Supervisor</a></h1>
+      </div>
+    </div>
+    <div class="team">
+      <h1>Meet the Team!</h1>
+      <div class="profile">
+        <img src="studenticon.png" alt="Ayush Kumar" />
+        <div>
+          <h2>Ayush Kumar</h2>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+      <div class="profile">
+        <img src="studenticon.png" alt="Garv Agrawal" />
+        <div>
+          <h2>Garv Agrawal</h2>
+          <p>Backend Developer</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Worker Homepage</title>
+    <link rel="stylesheet" href="workerhome.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Worker Homepage</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Leave Apply</h2>
+        <p>Apply for leave from work.</p>
+        <form action="leave.php" method="post">
+          <input type="text" name="name" placeholder="Your name" />
+          <input type="email" name="email" placeholder="Your email" />
+          <input type="date" name="start_date" placeholder="Start date" />
+          <input type="date" name="end_date" placeholder="End date" />
+          <input type="submit" value="Apply" />
+        </form>
+      </section>
+      <section>
+        <h2>Training</h2>
+        <p>View available training courses.</p>
+        <ul>
+          <li><a href="#">Course 1</a></li>
+          <li><a href="#">Course 2</a></li>
+          <li><a href="#">Course 3</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Cleaning Tasks</h2>
+        <p>View your assigned cleaning tasks.</p>
+        <ul>
+          <li><a href="#">Task 1</a></li>
+          <li><a href="#">Task 2</a></li>
+          <li><a href="#">Task 3</a></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023</p>
+      <a href="index.html">Go back</a>
+    </footer>
+  </body>
+</html>

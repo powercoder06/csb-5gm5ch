@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Homepage</title>
+    <link rel="stylesheet" href="studenthome.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Student Homepage</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Feedback</h2>
+        <p>Please provide your feedback on our services.</p>
+        <form action="feedback.php" method="post">
+          <input type="text" name="name" placeholder="Your name" />
+          <input type="email" name="email" placeholder="Your email" />
+          <textarea name="feedback" placeholder="Your feedback"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      <section>
+        <h2>Request Cleaning Services</h2>
+        <p>Request cleaning services for your dorm room.</p>
+        <form action="cleaning.php" method="post">
+          <input type="text" name="name" placeholder="Your name" />
+          <input type="email" name="email" placeholder="Your email" />
+          <input type="submit" value="Request" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023</p>
+      <a href="index.html">Go Back</a>
+    </footer>
+  </body>
+</html>

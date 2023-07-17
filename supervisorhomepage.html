@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Supervisor Homepage</title>
+    <link rel="stylesheet" href="supervisorhome.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Supervisor Homepage</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Create New Member</h2>
+        <p>Create a new member account.</p>
+        <form action="create.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="email" name="email" placeholder="Member email" />
+          <input type="submit" value="Create" />
+        </form>
+      </section>
+      <section>
+        <h2>Terminate Membership</h2>
+        <p>Terminate a member's account.</p>
+        <form action="terminate.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="submit" value="Terminate" />
+        </form>
+      </section>
+      <section>
+        <h2>Update Member Details</h2>
+        <p>Update a member's details.</p>
+        <form action="update.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="email" name="email" placeholder="Member email" />
+          <input type="submit" value="Update" />
+        </form>
+      </section>
+      <section>
+        <h2>Declare Employee of the Month</h2>
+        <p>Declare a member as the employee of the month.</p>
+        <form action="employee.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="submit" value="Declare" />
+        </form>
+      </section>
+      <section>
+        <h2>Search Member</h2>
+        <p>Search for a member by name or email.</p>
+        <form action="search.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="email" name="email" placeholder="Member email" />
+          <input type="submit" value="Search" />
+        </form>
+      </section>
+      <section>
+        <h2>Leave Approval</h2>
+        <p>Approve or deny leave requests.</p>
+        <form action="leave.php" method="post">
+          <input type="text" name="name" placeholder="Member name" />
+          <input type="date" name="start_date" placeholder="Start date" />
+          <input type="date" name="end_date" placeholder="End date" />
+          <input type="submit" value="Approve/Deny" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2023</p>
+      <a href="index.html">go back</a>
+    </footer>
+  </body>
+</html>
